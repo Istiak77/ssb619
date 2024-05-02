@@ -1,0 +1,67 @@
+*{ 
+    background: #d63447;  
+    color: yellow;
+    text-align: center;
+}
+
+a:active{
+    background-color: aqua;
+}
+.content_after p::after { 
+    content: " - Remember this";
+  }
+
+  .content_before p::before { 
+    content: " - Remember this ";
+  }
+.checked input:checked{
+        height: 10px;
+        width: 10px;
+  }
+  .disabled textarea:enabled{
+    background-color: magenta;
+  }
+  .empty  p:empty{
+    width: 50px;
+    height: 50px;
+    border-radius: 70%;
+    background-color: black;
+  }
+.empty{
+    display: flex;
+    justify-content: center;
+}
+
+.fc p:first-child{
+    background-color: lime;
+}
+.fl p::first-letter {
+    font-size: 500%;
+    color: #8A2BE2;
+  }
+  .fline p::first-line {
+        background-color: limegreen;
+  }
+  .fp p:first-of-type{
+    background-color: lightseagreen;
+  }
+  .lp p:last-of-type{
+    background-color: lightseagreen;
+  }
+  input:focus {
+    background-color: yellow;
+  }
+button:hover{
+            height: 40px;
+            width: 70px;
+            background-color: rebeccapurple;
+  }
+ .in_range:in-range{
+    border: 2px solid yellow;
+ }
+a:link{
+        background-color: lime;
+ }
+ a:visited{
+    color: lime;
+ }
