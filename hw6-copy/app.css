@@ -6,7 +6,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
-    box-shadow: 0 1px #ededed;
+    padding:10px;
 }
 .container{
     width: 90%;
