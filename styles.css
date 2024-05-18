@@ -6,22 +6,22 @@ body{
     height: 100vh;
     background-color: #151b29;
 }
-.maintext{
-  text-align: center;
-}
 
-.tags{
- background: none;
+a{
+    background: none;
+    display: inline-block;
     color: #ffa260;
     border: 2px solid;
     padding: 1em 2em;
     font-size:1em;
     transition: all 0.25s;
+    text-decoration: none;
 }
-.tags:hover{
+
+a:hover{
     border-color:#f1ff5c;
     color:white;
     box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
-    transform: translateY(-0.40em);
+    transform: translateY(-1em);
     cursor: pointer;
 }
