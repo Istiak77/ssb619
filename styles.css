@@ -1,31 +1,27 @@
-*{
-    background-color: #00203FFF;
-    color: #ADEFD1FF;
-    font-family:fantasy;
-    flex-wrap: wrap;
+body{
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #151b29;
 }
 .maintext{
-
-    text-align: center;
+  text-align: center;
 }
 
 .tags{
-  display: block;
-  margin:20px 200px 0 0;
-  display: inline-block;
-  padding: 20px 30px;
-  background-color: rgb(193, 79, 205);
-  color: white;
-  border: none;
-  border-radius: 50px;
-  transition: background-color 1s ease;
-  text-decoration: none;
+ background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size:1em;
+    transition: all 0.25s;
 }
 .tags:hover{
-    animation: colorChange 5s infinite alternate;
-  }
-  @keyframes colorChange {
-    0% {
-      background-color: #dc5168;
-    }
-  }
+    border-color:#f1ff5c;
+    color:white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.40em);
+    cursor: pointer;
+}
