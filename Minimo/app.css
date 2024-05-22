@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: "Playfair Display",serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+
+}
+header{
+        padding: 30px 0;
+        /* border: 1px solid; */
+}
+.container{
+        margin: 0 auto;
+        width: 90%;
+        /* border: 1px black solid; */
+        overflow: hidden;
+}
+.logo{
+        margin-top: 10px;
+        float: left;    
+        width: 12%;
+        /* border: 1px solid black; */
+}
+.logo a img{ 
+            width: 100%;
+}
+.menu{  
+        float: right;
+        width: 65%;
+        /* border: 1px solid black; */
+}
+.menu ul{
+    float: right
+   
+}
+.menu ul li{
+            float: left;
+            list-style:none;
+}
+
+.menu ul li a{
+    display: inline-block;
+    margin: 0 55px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .33s linear ease ;
+}
+
+.menu ul li:last child a{
+        margin-right:0;
+}
+
+.menu ul li a:hover{
+        border-bottom:1px solid #626262 ;
+}
+.banner{
+
+}
+.b_img{ 
+
+
+}
+.b_img img{
+        width: 100%;
+}
+
+.getaway{
+        padding: 100px 0;
+}
+.container_2{
+            margin: 0 auto;
+            width: 80%;
+            /* border: 1px solid black; */
+}
+.g_content{}
+
+.lite{
+        font-family: "Ubuntu",sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+}
+.title{
+        margin: 20px 0 30px;
+        font-size: 30px;
+        font-weight: 400;
+
+}
+.text{
+        margin: 0;
+        line-height: 24px;
+        color: #626262;
+}
+
+.g_link{
+        display: inline-block;
+        margin-top: 40px;
+        text-decoration: none;
+        color: #626262;
+}
+.blog{
+        padding: 0 0 100px;
+        
+}
+.b1_content{
+        overflow: hidden;
+}
+.b1_item{
+        float: left;
+        width: 47%;
+        /* border: 1px solid; */
+        box-sizing: border-box;
+        margin-bottom: 100px;
+}
+.b1_item:nth-child(even){
+        margin-left: 6%;       
+}
+.b1_img{
+        margin-bottom: 20px; 
+}
+.b1_img img{
+        width: 100%;
+}
